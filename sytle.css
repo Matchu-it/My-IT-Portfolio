@@ -17,3 +17,10 @@ nav {
     position: sticky;
     top: 0;
 }
+nav a {
+    color:#ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    
+}
