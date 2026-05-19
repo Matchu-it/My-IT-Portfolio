@@ -73,3 +73,9 @@ h3 {
     border-radius: 8px;
     border: 1px solid #333;
 }
+#projects img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
