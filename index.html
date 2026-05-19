@@ -3,69 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-     <link rel="stylesheet" href="style.css"> 
-      <script src="script.js"></script>
+    <title>James Matthew Mercado – Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
 
     <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contacts">Contacts</a>
+        <div class="nav-inner">
+            <span class="nav-logo">JMM</span>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contacts">Contacts</a>
+            </div>
+        </div>
     </nav>
 
     <section id="home">
-        <h1>James Matthew Mercado</h1> 
-        <h2>BSIT - 2E</h2>
-        <p> don't imagine the struggle just move</p>
-        <p>I'm an aspiring web and game developer and is looking for a room of growth</p>
-        <img src ="image/James Matthew Mercado.jpg" alt ="My Picture" width="400">
+        <div class="home-content">
+            <div class="home-text">
+                <p class="home-tag">Aspiring Developer</p>
+                <h1>James Matthew<br>Mercado</h1>
+                <h2 class="home-course">BSIT – 2E</h2>
+                <p class="home-quote">"Don't imagine the struggle, just move."</p>
+                <p class="home-bio">I'm an aspiring web and game developer looking for room to grow.</p>
+            </div>
+            <div class="home-img-wrap">
+                <img src="images/James Matthew Mercado.jpg" alt="James Matthew Mercado" width="200">
+            </div>
+        </div>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p> Im a student at Cavite State University and is currently taking up Bachelor of Science in Information Technology a secont year college
-        </p>
+        <p>I'm a student at Cavite State University currently taking up Bachelor of Science in Information Technology, second year college.</p>
 
         <h3>Skills</h3>
-        <ul>
+        <ul class="skills-list">
             <li>HTML</li>
             <li>CSS</li>
             <li>Python</li>
-            
+            <li>C++</li>
+            <li>Java</li>
+            <li>PHP</li>
         </ul>
     </section>
+
     <section id="projects">
         <h2>My Projects</h2>
-        
-        <div>
-            <h3>Project 1 smth</h3>
-             <img src="image/1st proj.png" alt="Project 1 Screenshot" width="400">  
-            <p>Event system for Catering and for Concert booking</p>
-            <p>Java</p>
-            <p>Swing</p>
-            <p>MySQL</p>
+
+        <div class="project-card">
+            <img src="images/1st proj.png" alt="Event Booking Screenshot">
+            <div class="project-info">
+                <h3>Event Booking System</h3>
+                <p>Event system for catering and concert booking.</p>
+                <div class="tech-tags">
+                    <span>Java</span>
+                    <span>Swing</span>
+                    <span>MySQL</span>
+                </div>
+            </div>
         </div>
-        <div>
-            <h3>Project 2 smth</h3>
-            <img src="image/2nd proj.png" alt="Project 2 Screenshot" width="400">
-            <p>Calculator Application/p>
-            <p>Python</p>
+
+        <div class="project-card">
+            <img src="images/2nd proj.png" alt="Calculator Application Screenshot">
+            <div class="project-info">
+                <h3>Calculator Application</h3>
+                <p>A functional calculator application built with Python.</p>
+                <div class="tech-tags">
+                    <span>Python</span>
+                </div>
+            </div>
         </div>
+
+        <div class="project-card">
+            <img src="images/3rd proj.png" alt="MVC Enrollment System Screenshot">
+            <div class="project-info">
+                <h3>Student Enrollment System</h3>
+                <p>MVC-based student enrollment system.</p>
+                <div class="tech-tags">
+                    <span>PHP</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </div>
+        </div>
+
     </section>
+
     <section id="contacts">
         <h2>Contact Me</h2>
-        <p>Email: jamesmatthewmercado31@gmail.com</p>
-        <p>GitHub: https://github.com/Matchu-it/Matchu-it</p>
-        <p>Facebook: https://www.facebook.com/james.matthew.mercado.695886</p>
+        <div class="contact-list">
+            <p>📧 <a href="mailto:jamesmatthewmercado@email.com">jamesmatthewmercado@email.com</a></p>
+            <p>🐙 <a href="https://github.com/Matchu-it" target="_blank">github.com/Matchu-it</a></p>
+            <p>📘 <a href="#">Facebook</a></p>
+            <p>💼 <a href="#">LinkedIn</a></p>
+        </div>
     </section>
+
     <footer>
-        <p>Made by: james Mattchew</p>
-          <script src="script.js"></script>
-</body>
+        <p>Made by <span class="footer-name">James Matthew Mercado</span> &copy; 2025</p>
     </footer>
 
-
-</head>
+    <script src="script.js"></script>
+</body>
+</html>
