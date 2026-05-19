@@ -58,3 +58,11 @@ h3 {
     color: #ffffff;
 
 }
+#about ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+
+}
